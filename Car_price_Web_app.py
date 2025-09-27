@@ -9,9 +9,11 @@ import numpy as np
 import joblib
 import streamlit as st
 import matplotlib.pyplot as plt
+import os
 
-# Load model
-loaded_model = joblib.load(r"D:\project\ml deploy\car price\trained_model.pkl")
+model_path = os.path.join(os.path.dirname(__file__), "trained_model.pkl")
+loaded_model = joblib.load(model_path)
+
 
 # Prediction function
 def car_price(input_data):
