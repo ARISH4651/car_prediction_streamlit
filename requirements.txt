@@ -2,3 +2,6 @@ streamlit
 numpy
 joblib
 matplotlib
+scikit-learn
+pandas
+xgboost
