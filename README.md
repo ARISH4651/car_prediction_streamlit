@@ -27,3 +27,6 @@ The model predicts the **resale value of a car** based on its features such as y
 - **Streamlit** – Web app framework
 
 ---
+live :
+
+https://carspricepredictions.streamlit.app/
